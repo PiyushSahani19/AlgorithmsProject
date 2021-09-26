@@ -12,8 +12,7 @@ public class Driver {
 		Scanner scanner = new Scanner(System.in);
 		StockServices services = new StockServices();
 		System.out.println("Enter the no. of Companies : ");
-		int noOfCompanies = scanner.nextInt();
-		CompanyStocks[] companyStocks = services.getShareDetails(noOfCompanies);
+		
 
 		int condition = 0;
 		do {
